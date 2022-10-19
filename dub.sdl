@@ -5,3 +5,13 @@ copyright "Copyright © 2022, nonanonno"
 license "MIT"
 dependency "bindbc-glfw" version="~>1.0.1"
 dependency "bindbc-opengl" version="~>1.0.3"
+
+configuration "executable" {
+    targetType "executable"
+}
+
+configuration "unittest" {
+    targetType "library"
+    excludedSourceFiles "source/app.d"
+    targetPath ".dub/unittest"
+}
