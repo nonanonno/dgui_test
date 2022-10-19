@@ -1,0 +1,7 @@
+name "dgui_test"
+description "A minimal D application."
+authors "nonanonno"
+copyright "Copyright © 2022, nonanonno"
+license "MIT"
+dependency "bindbc-glfw" version="~>1.0.1"
+dependency "bindbc-opengl" version="~>1.0.3"

@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dgui_test
+dgui_test.so
+dgui_test.dylib
+dgui_test.dll
+dgui_test.a
+dgui_test.lib
+dgui_test-test-*
+*.exe
+*.o
+*.obj
+*.lst
