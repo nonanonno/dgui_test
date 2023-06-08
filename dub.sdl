@@ -5,6 +5,8 @@ copyright "Copyright © 2022, nonanonno"
 license "MIT"
 dependency "bindbc-glfw" version="~>1.0.1"
 dependency "bindbc-opengl" version="~>1.0.3"
+versions "GL_46"
+stringImportPaths "resource"
 
 configuration "executable" {
     targetType "executable"
